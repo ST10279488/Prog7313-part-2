@@ -61,10 +61,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:background="@drawable/rounded_corners"
-            android:backgroundTint="#002D71"
+            android:backgroundTint="@color/black"
             android:padding="18dp"
-            android:textColor="@color/white"
-            android:text="@string/log_in" />
+            android:text="@string/log_in"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/tvForgotPassword"

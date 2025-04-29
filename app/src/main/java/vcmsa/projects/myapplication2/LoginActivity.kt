@@ -13,7 +13,7 @@ class LoginActivity : AppCompatActivity() {
         val btnLogin = findViewById<Button>(R.id.btnLogin)
 
         btnLogin.setOnClickListener {
-            val intent = Intent(this, Dashboard::class.java)
+            val intent = Intent(this, DashboardActivity::class.java)
             startActivity(intent)
             finish() // Optional: Prevents user from coming back to login screen with back button
         }
